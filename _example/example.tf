@@ -7,7 +7,7 @@ data "aws_caller_identity" "current" {}
 
 module "s3_logs" {
   source  = "clouddrove/s3/aws"
-  version = "0.15.0"
+  version = "0.15.1"
 
   name                         = "bucket-logs"
   environment                  = "security"

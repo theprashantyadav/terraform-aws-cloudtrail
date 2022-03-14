@@ -172,3 +172,6 @@ variable "iam_role_name" {
   default     = "cloudtrail-cloudwatch-logs-role"
   type        = string
 }
+
+
+   
